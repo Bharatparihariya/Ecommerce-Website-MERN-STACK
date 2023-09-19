@@ -8,9 +8,14 @@ import cors from "cors";
 import ProductRoute from "./routes/ProductRoute.js";
 import CategoryRoute from "./routes/CategoryRoute.js";
 import path from "path";
+import {fileURLToPath} from "url";
 dotenv.config();
 
 connectDb();
+
+//EsModule Fix
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 app.use(cors());

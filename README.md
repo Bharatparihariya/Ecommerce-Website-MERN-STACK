@@ -8,32 +8,12 @@ Visit the live demo of the project here Live Demo [https://cyan-amused-seagull.c
 
 ## Features
  1. User Authentication:
-     -Secure user registration and login.
-     -User profile management.
-Product Catalog:
-
-Browse and search for products.
-View detailed product descriptions and images.
-Shopping Cart:
-
-Add products to the cart.
-Adjust product quantities and remove items.
-Calculate the total price of items in the cart.
-Checkout and Payment:
-
-Secure card payment processing.
-Shipping address input and validation.
-Order confirmation and email notifications.
-Order History:
-
-View a history of past orders.
-Track the status of current orders.
-Product Management (Admin):
-
-Add, edit, and delete products.
-Update product details and images.
-Manage product categories.
-User Management (Admin):
+ 2. Product Catalog:
+ 3. Shopping Cart:
+ 4. Checkout and Payment:
+ 5. Order History:
+ 6. Product Management (Admin): Add, edit, and delete products.Update product details and images.Manage product categories.
+ 7. User Management (Admin):
 
 Admin dashboard for managing users.
 Grant or revoke admin privileges.

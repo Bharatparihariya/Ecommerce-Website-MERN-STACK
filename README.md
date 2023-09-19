@@ -7,13 +7,13 @@ A fully-featured Ecommerce website developed using the MERN (MongoDB, Express.js
 Visit the live demo of the project here Live Demo [https://cyan-amused-seagull.cyclic.cloud]
 
 ## Features
- 1. User Authentication:
- 2. Product Catalog:
- 3. Shopping Cart:
- 4. Checkout and Payment:
- 5. Order History:
- 6. Product Management (Admin):[ Add, edit, and delete products.Update product details and images.Manage product categories.]
- 7. User Management (Admin):
+ 1. User Authentication
+ 2. Product Catalog
+ 3. Shopping Cart
+ 4. Checkout and Payment
+ 5. Order History
+ 6. Product Management (Admin)
+ 7. User Management (Admin)
 
 Admin dashboard for managing users.
 Grant or revoke admin privileges.

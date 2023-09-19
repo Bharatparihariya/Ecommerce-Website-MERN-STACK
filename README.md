@@ -14,12 +14,7 @@ Visit the live demo of the project here Live Demo [https://cyan-amused-seagull.c
  5. Order History
  6. Product Management (Admin)
  7. User Management (Admin)
-
-Admin dashboard for managing users.
-Grant or revoke admin privileges.
-Responsive Design:
-
-Optimized for various screen sizes and devices.
+ 8. Responsive Design
 
 ## Technologies Used
 - MongoDB
@@ -27,13 +22,6 @@ Optimized for various screen sizes and devices.
 - React
 - Node.js
 - HTML/CSS/JavaScript
-
-## Features
-- User authentication
-- Product catalog
-- Shopping cart
-- Order management
-- ...
 
 ## Installation
 1. Clone the repository.
@@ -48,13 +36,11 @@ Optimized for various screen sizes and devices.
 ## API Endpoints
 - `/api/products` - Get all products
 - `/api/products/:id` - Get a product by ID
-- ...
 
 ## Database Schema
 - Users
 - Products
 - Orders
-- ...
 
 ## Deployment
 To deploy this project to a production environment, follow these steps:
@@ -62,22 +48,14 @@ To deploy this project to a production environment, follow these steps:
 2. Configure environment variables.
 3. Build the front end.
 4. Deploy the back end.
-5. ...
 
-## Contributing
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
-- Thanks to [Name](https://github.com/name) for their awesome library.
-- ...
 
 ## Contact
-For questions or feedback, contact [Bharat Parihariya](mailto:bharatparihariya704@gmail.com).
+For questions or feedback, contact Bharat Parihariya mailto:bharatparihariya704@gmail.com.
 
-## Future Improvements
-- Implement payment gateway integration.
-- ...
+
 

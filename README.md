@@ -12,7 +12,7 @@ Visit the live demo of the project here Live Demo [https://cyan-amused-seagull.c
  3. Shopping Cart:
  4. Checkout and Payment:
  5. Order History:
- 6. Product Management (Admin): Add, edit, and delete products.Update product details and images.Manage product categories.
+ 6. Product Management (Admin):[ Add, edit, and delete products.Update product details and images.Manage product categories.]
  7. User Management (Admin):
 
 Admin dashboard for managing users.

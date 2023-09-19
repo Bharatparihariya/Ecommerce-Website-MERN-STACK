@@ -7,10 +7,14 @@ import authroutes from "./routes/AuthRoute.js";
 import cors from "cors";
 import ProductRoute from "./routes/ProductRoute.js";
 import CategoryRoute from "./routes/CategoryRoute.js";
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 import path from "path";
 dotenv.config();
 
 connectDb();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const app = express();
 app.use(cors());
@@ -23,9 +27,8 @@ app.use("/api/v1/auth", authroutes);
 app.use("/api/v1/category", CategoryRoute);
 app.use("/api/v1/product", ProductRoute);
 
-app.use("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
+app.use(express.static(path.join(__dirname, './client/build')));
+
 
 const PORT = process.env.PORT || 8080;
 

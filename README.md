@@ -8,8 +8,8 @@ Visit the live demo of the project here Live Demo [https://cyan-amused-seagull.c
 
 ## Features
  1. User Authentication:
-     .Secure user registration and login.
-     .User profile management.
+     -Secure user registration and login.
+     -User profile management.
 Product Catalog:
 
 Browse and search for products.
